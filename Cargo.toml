@@ -26,3 +26,7 @@ path = "src/incr_arr.rs"
 [[bin]]
 name = "perms"
 path = "src/perms.rs"
+
+[[bin]]
+name = "num_spiral"
+path = "src/num_spiral.rs"
