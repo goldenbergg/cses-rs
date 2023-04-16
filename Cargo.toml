@@ -1,0 +1,28 @@
+[package]
+name = "cses-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "weird_algo"
+path = "src/weird_algo.rs"
+
+[[bin]]
+name = "ms_num"
+path = "src/ms_num.rs"
+
+[[bin]]
+name = "repetitions"
+path = "src/repetitions.rs"
+
+[[bin]]
+name = "incr_arr"
+path = "src/incr_arr.rs"
+
+[[bin]]
+name = "perms"
+path = "src/perms.rs"
