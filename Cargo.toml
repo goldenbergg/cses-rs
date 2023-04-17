@@ -30,3 +30,7 @@ path = "src/perms.rs"
 [[bin]]
 name = "num_spiral"
 path = "src/num_spiral.rs"
+
+[[bin]]
+name = "two_knights"
+path = "src/two_knights.rs"

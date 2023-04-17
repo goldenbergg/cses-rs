@@ -8,7 +8,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Increasing Array](https://github.com/goldenbergg/cses-rs/blob/master/src/incr_arr.rs)
 - [x] [Permutations](https://github.com/goldenbergg/cses-rs/blob/master/src/perms.rs)
 - [x] [Number Spiral](https://github.com/goldenbergg/cses-rs/blob/master/src/num_spiral.rs)
-- [ ] Two Knights
+- [x] [Two Knights](https://github.com/goldenbergg/cses-rs/blob/master/src/two_knights.rs)
 - [ ] Two Sets
 - [ ] Bit Strings
 - [ ] Trailing Zeros
