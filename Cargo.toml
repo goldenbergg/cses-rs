@@ -34,3 +34,7 @@ path = "src/num_spiral.rs"
 [[bin]]
 name = "two_knights"
 path = "src/two_knights.rs"
+
+[[bin]]
+name = "two_sets"
+path = "src/two_sets.rs"
