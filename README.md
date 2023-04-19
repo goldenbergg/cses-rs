@@ -9,7 +9,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Permutations](https://github.com/goldenbergg/cses-rs/blob/master/src/perms.rs)
 - [x] [Number Spiral](https://github.com/goldenbergg/cses-rs/blob/master/src/num_spiral.rs)
 - [x] [Two Knights](https://github.com/goldenbergg/cses-rs/blob/master/src/two_knights.rs)
-- [ ] Two Sets
+- [x] [Two Sets](https://github.com/goldenbergg/cses-rs/blob/master/src/two_sets.rs)
 - [ ] Bit Strings
 - [ ] Trailing Zeros
 - [ ] Coin Piles

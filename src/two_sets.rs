@@ -37,40 +37,6 @@ fn nck(n: u64, k: u64) -> u64 {
     }
 }
  
-use std::collections::HashMap;
- 
-fn check(set: &Vec<i64>, idx: usize, sum: i64, visited: &mut HashMap<(usize, i64), i64>) -> i64 {
-    if idx >= set.len() {
-        if sum == 0 {
-            return 1
-        } else {
-            return 0
-        }
-    }
- 
-    if visited.contains_key(&(idx, sum)) == false {
-        let mut cnt = check(set, idx + 1, sum, visited);
-        cnt += check(set, idx + 1, sum - set[idx], visited);
-        visited.insert((idx, sum), cnt);
-    }
- 
-    visited[&(idx, sum)]
-}
- 
-fn get_subset(set: &Vec<i64>, sum: i64, visited: &mut HashMap<(usize, i64), i64>) -> Vec<i64> {
-    let mut subset: Vec<i64> = Vec::new();
-    let mut my_sum = sum.clone();
- 
-    for (idx, val) in set.iter().enumerate() {
-        if check(set, idx + 1, my_sum - val, visited) > 0 {
-            subset.push(val.clone());
-            my_sum -= val;
-        }
-    }
- 
-    return subset
-}
- 
 fn main() {
     let n: i64 = input!().parse().unwrap();
  
@@ -78,25 +44,54 @@ fn main() {
         println!("NO");
         return
     }
- 
-    let set: Vec<i64> = (1..=n).collect();
-    let sum = n * (n + 1) / 4;
-    let mut visited: HashMap<(usize, i64), i64> = HashMap::new();
- 
-    if check(&set, 0, sum, &mut visited) == 0 {
-        println!("NO");
-    } else {
-        let subset_0 = get_subset(&set, sum, &mut visited);
-        let subset_1: Vec<&i64> = set.iter().filter(|x| subset_0.contains(x) == false).collect();
- 
-        println!("YES");
-        println!("{}", subset_0.len());
-        for elem in subset_0.iter() {
-            print!("{} ", elem);
+    
+    let part: i64 = n * (n + 1) / 4;
+    let set: Vec<i64> = (1..=n).rev().collect();
+
+    for (outer_idx, val) in set.iter().enumerate() {
+        let mut sum: i64 = *val;
+        let mut subset_0: Vec<i64> = Vec::new();
+        let mut subset_1: Vec<i64> = Vec::new(); 
+
+        if sum > part {
+            sum -= val;
+            subset_1.push(*val);
+            continue;
         }
-        println!("\n{}", subset_1.len());
-        for elem in subset_1 {
-            print!("{} ", elem);
+
+        subset_0.push(*val);
+        let mut inner_idx = outer_idx + 1;
+
+        while inner_idx < set.len() {
+            sum += set[inner_idx];
+
+            if sum > part {
+                sum -= set[inner_idx];
+                subset_1.push(set[inner_idx]);
+            } else {
+                subset_0.push(set[inner_idx]);
+            }
+
+            inner_idx += 1;
+        }
+
+        if sum < part {
+            continue;
+        } else {
+            println!("YES");
+            println!("{}", subset_0.len());
+
+            for elem in subset_0 {
+                print!("{} ", elem);
+            }
+
+            println!("\n{}", subset_1.len());
+
+            for elem in subset_1 {
+                print!("{} ", elem);
+            }
+
+            break;
         }
     }
 }
