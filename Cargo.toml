@@ -36,5 +36,13 @@ name = "two_knights"
 path = "src/two_knights.rs"
 
 [[bin]]
+name = "bit_strs"
+path = "src/bit_strs.rs"
+
+[[bin]]
 name = "two_sets"
 path = "src/two_sets.rs"
+
+[[bin]]
+name = "trailing_zeros"
+path = "src/trailing_zeros.rs"

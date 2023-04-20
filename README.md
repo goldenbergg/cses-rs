@@ -10,8 +10,8 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Number Spiral](https://github.com/goldenbergg/cses-rs/blob/master/src/num_spiral.rs)
 - [x] [Two Knights](https://github.com/goldenbergg/cses-rs/blob/master/src/two_knights.rs)
 - [x] [Two Sets](https://github.com/goldenbergg/cses-rs/blob/master/src/two_sets.rs)
-- [ ] Bit Strings
-- [ ] Trailing Zeros
+- [x] [Bit Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/bit_strs.rs)
+- [x] [Trailing Zeros](https://github.com/goldenbergg/cses-rs/blob/master/src/trailing_zeros.rs)
 - [ ] Coin Piles
 - [ ] Palindrome Reorder
 - [ ] Gray Code
