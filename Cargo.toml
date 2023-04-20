@@ -50,3 +50,7 @@ path = "src/trailing_zeros.rs"
 [[bin]]
 name = "coin_piles"
 path = "src/coin_piles.rs"
+
+[[bin]]
+name = "pal_ro"
+path = "src/pal_ro.rs"
