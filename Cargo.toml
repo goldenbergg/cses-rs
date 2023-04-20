@@ -46,3 +46,7 @@ path = "src/two_sets.rs"
 [[bin]]
 name = "trailing_zeros"
 path = "src/trailing_zeros.rs"
+
+[[bin]]
+name = "coin_piles"
+path = "src/coin_piles.rs"

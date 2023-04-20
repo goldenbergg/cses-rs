@@ -12,7 +12,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Two Sets](https://github.com/goldenbergg/cses-rs/blob/master/src/two_sets.rs)
 - [x] [Bit Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/bit_strs.rs)
 - [x] [Trailing Zeros](https://github.com/goldenbergg/cses-rs/blob/master/src/trailing_zeros.rs)
-- [ ] Coin Piles
+- [x] [Coin Piles](https://github.com/goldenbergg/cses-rs/blob/master/src/trailing_zeros.rs)
 - [ ] Palindrome Reorder
 - [ ] Gray Code
 - [ ] Tower of Hanoi
