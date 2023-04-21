@@ -58,3 +58,7 @@ path = "src/pal_ro.rs"
 [[bin]]
 name = "gray_code"
 path = "src/gray_code.rs"
+
+[[bin]]
+name = "toh"
+path = "src/toh.rs"

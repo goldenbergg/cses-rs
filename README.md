@@ -15,7 +15,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Coin Piles](https://github.com/goldenbergg/cses-rs/blob/master/src/coin_piles.rs)
 - [x] [Palindrome Reorder](https://github.com/goldenbergg/cses-rs/blob/master/src/pal_ro.rs)
 - [x] [Gray Code](https://github.com/goldenbergg/cses-rs/blob/master/src/gray_code.rs)
-- [ ] Tower of Hanoi
+- [x] [Tower of Hanoi](https://github.com/goldenbergg/cses-rs/blob/master/src/toh.rs)
 - [ ] Creating Strings
 - [ ] Apple Division
 - [ ] Chessboard and Queens

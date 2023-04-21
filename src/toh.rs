@@ -37,10 +37,20 @@ fn nck(n: u64, k: u64) -> u64 {
     }
 }
 
-fn main() {
-    let n: u32 = input!().parse().unwrap();
-
-    for i in 0..(1 << n) {
-        println!("{:0>width$b}", i ^ (i / 2), width = n as usize,)
+fn toh(n: u64, l: u64, m: u64, r: u64) {
+    if n == 1 {
+        println!("{} {}", l, r);
+        return
     }
+
+    toh(n - 1, l, r, m);
+    println!("{} {}", l, r);
+    toh(n - 1, m, l, r);
+}
+
+fn main() {
+    let n: u64 = input!().parse().unwrap();
+
+    println!("{}", (1 << n) - 1);
+    toh(n, 1, 2, 3);
 }
