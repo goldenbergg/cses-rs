@@ -54,3 +54,7 @@ path = "src/coin_piles.rs"
 [[bin]]
 name = "pal_ro"
 path = "src/pal_ro.rs"
+
+[[bin]]
+name = "gray_code"
+path = "src/gray_code.rs"

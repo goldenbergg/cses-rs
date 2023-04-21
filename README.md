@@ -14,7 +14,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Trailing Zeros](https://github.com/goldenbergg/cses-rs/blob/master/src/trailing_zeros.rs)
 - [x] [Coin Piles](https://github.com/goldenbergg/cses-rs/blob/master/src/trailing_zeros.rs)
 - [x] [Palindrome Reorder](https://github.com/goldenbergg/cses-rs/blob/master/src/pal_ro.rs)
-- [ ] Gray Code
+- [x] [Gray Code](https://github.com/goldenbergg/cses-rs/blob/master/src/gray_code.rs)
 - [ ] Tower of Hanoi
 - [ ] Creating Strings
 - [ ] Apple Division
