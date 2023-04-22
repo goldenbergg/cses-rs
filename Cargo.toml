@@ -62,3 +62,7 @@ path = "src/gray_code.rs"
 [[bin]]
 name = "toh"
 path = "src/toh.rs"
+
+[[bin]]
+name = "creating_strs"
+path = "src/creating_strs.rs"

@@ -16,7 +16,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Palindrome Reorder](https://github.com/goldenbergg/cses-rs/blob/master/src/pal_ro.rs)
 - [x] [Gray Code](https://github.com/goldenbergg/cses-rs/blob/master/src/gray_code.rs)
 - [x] [Tower of Hanoi](https://github.com/goldenbergg/cses-rs/blob/master/src/toh.rs)
-- [ ] Creating Strings
+- [x] [Creating Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/creating_strs.rs)
 - [ ] Apple Division
 - [ ] Chessboard and Queens
 - [ ] Digit Queries
