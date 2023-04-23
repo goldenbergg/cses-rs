@@ -17,7 +17,7 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Gray Code](https://github.com/goldenbergg/cses-rs/blob/master/src/gray_code.rs)
 - [x] [Tower of Hanoi](https://github.com/goldenbergg/cses-rs/blob/master/src/toh.rs)
 - [x] [Creating Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/creating_strs.rs)
-- [ ] Apple Division
+- [x] [Apple Division](https://github.com/goldenbergg/cses-rs/blob/master/src/apple_div.rs)
 - [ ] Chessboard and Queens
 - [ ] Digit Queries
 - [ ] Grid Paths

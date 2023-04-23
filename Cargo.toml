@@ -66,3 +66,7 @@ path = "src/toh.rs"
 [[bin]]
 name = "creating_strs"
 path = "src/creating_strs.rs"
+
+[[bin]]
+name = "apple_div"
+path = "src/apple_div.rs"

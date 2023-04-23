@@ -37,6 +37,7 @@ fn nck(n: u64, k: u64) -> u64 {
     }
 }
 
+#[allow(dead_code)]
 fn next_permutation(v: &mut Vec<u8>) -> bool {
     if let Some((i, k)) = v
         .windows(2)
@@ -55,21 +56,31 @@ fn next_permutation(v: &mut Vec<u8>) -> bool {
     false
 }
 
-use std::collections::VecDeque;
+use std::cmp::min;
+
+fn find_min(v: &mut Vec<i64>, l: usize, s: i64, t: i64) -> i64 {
+    let r: i64;
+    
+    if l != 0 {
+        r = min(
+            find_min(v, l - 1, s + v[l - 1], t), 
+            find_min(v, l - 1, s, t)
+        );
+    } else {
+        r = (t - 2 * s).abs()
+    }
+
+    return r
+}
 
 fn main() {
-    let mut s: Vec<u8> = input!().into_bytes();
-    let mut r: VecDeque<Vec<u8>> = VecDeque::new();
-
-    s.sort();
-    r.push_back(s.to_owned());
-
-    while next_permutation(&mut s) == true {
-        r.push_back(s.to_owned());
-    }
-
-    println!("{}", r.len());
-    for v in r.iter() {
-        println!("{}", String::from_utf8_lossy(v));
-    }
+    let _n: i64 = input!().parse().unwrap();
+    let mut w: Vec<i64> = ls2vec!(input!());
+    
+    let s: i64 = w.iter().sum();
+    let n: usize = w.len();
+    
+    let m: i64 = find_min(&mut w, n, 0, s);
+    println!("{}", m);
 }
+    
