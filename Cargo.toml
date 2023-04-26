@@ -70,3 +70,7 @@ path = "src/creating_strs.rs"
 [[bin]]
 name = "apple_div"
 path = "src/apple_div.rs"
+
+[[bin]]
+name = "chessbrd_qns"
+path = "src/chessbrd_qns.rs"

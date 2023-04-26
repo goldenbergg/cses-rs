@@ -18,6 +18,6 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Tower of Hanoi](https://github.com/goldenbergg/cses-rs/blob/master/src/toh.rs)
 - [x] [Creating Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/creating_strs.rs)
 - [x] [Apple Division](https://github.com/goldenbergg/cses-rs/blob/master/src/apple_div.rs)
-- [ ] Chessboard and Queens
+- [x] [Chessboard and Queens](https://github.com/goldenbergg/cses-rs/blob/master/src/chessbrd_qns.rs)
 - [ ] Digit Queries
 - [ ] Grid Paths
