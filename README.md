@@ -19,5 +19,5 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Creating Strings](https://github.com/goldenbergg/cses-rs/blob/master/src/creating_strs.rs)
 - [x] [Apple Division](https://github.com/goldenbergg/cses-rs/blob/master/src/apple_div.rs)
 - [x] [Chessboard and Queens](https://github.com/goldenbergg/cses-rs/blob/master/src/chessbrd_qns.rs)
-- [ ] Digit Queries
+- [x] [Digit Queries](https://github.com/goldenbergg/cses-rs/blob/master/src/digit_qrys.rs)
 - [ ] Grid Paths

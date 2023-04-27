@@ -74,3 +74,7 @@ path = "src/apple_div.rs"
 [[bin]]
 name = "chessbrd_qns"
 path = "src/chessbrd_qns.rs"
+
+[[bin]]
+name = "digit_qrys"
+path = "src/digit_qrys.rs"
