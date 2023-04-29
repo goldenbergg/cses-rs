@@ -82,3 +82,7 @@ path = "src/intro_probs/digit_qrys.rs"
 [[bin]]
 name = "distinct_nums"
 path = "src/sorting_and_searching/distinct_nums.rs"
+
+[[bin]]
+name = "apts"
+path = "src/sorting_and_searching/apts.rs"

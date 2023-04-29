@@ -24,3 +24,4 @@ CSES Problem Set in the Rust Programming Language
 
 # Sorting and Searching
 - [x] [Distinct Numbers](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/distinct_nums.rs)
+- [x] [Apartments](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/apts.rs)
