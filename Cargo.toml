@@ -9,72 +9,76 @@ edition = "2021"
 
 [[bin]]
 name = "weird_algo"
-path = "src/weird_algo.rs"
+path = "src/intro_probs/weird_algo.rs"
 
 [[bin]]
 name = "ms_num"
-path = "src/ms_num.rs"
+path = "src/intro_probs/ms_num.rs"
 
 [[bin]]
 name = "repetitions"
-path = "src/repetitions.rs"
+path = "src/intro_probs/repetitions.rs"
 
 [[bin]]
 name = "incr_arr"
-path = "src/incr_arr.rs"
+path = "src/intro_probs/incr_arr.rs"
 
 [[bin]]
 name = "perms"
-path = "src/perms.rs"
+path = "src/intro_probs/perms.rs"
 
 [[bin]]
 name = "num_spiral"
-path = "src/num_spiral.rs"
+path = "src/intro_probs/num_spiral.rs"
 
 [[bin]]
 name = "two_knights"
-path = "src/two_knights.rs"
+path = "src/intro_probs/two_knights.rs"
 
 [[bin]]
 name = "bit_strs"
-path = "src/bit_strs.rs"
+path = "src/intro_probs/bit_strs.rs"
 
 [[bin]]
 name = "two_sets"
-path = "src/two_sets.rs"
+path = "src/intro_probs/two_sets.rs"
 
 [[bin]]
 name = "trailing_zeros"
-path = "src/trailing_zeros.rs"
+path = "src/intro_probs/trailing_zeros.rs"
 
 [[bin]]
 name = "coin_piles"
-path = "src/coin_piles.rs"
+path = "src/intro_probs/coin_piles.rs"
 
 [[bin]]
 name = "pal_ro"
-path = "src/pal_ro.rs"
+path = "src/intro_probs/pal_ro.rs"
 
 [[bin]]
 name = "gray_code"
-path = "src/gray_code.rs"
+path = "src/intro_probs/gray_code.rs"
 
 [[bin]]
 name = "toh"
-path = "src/toh.rs"
+path = "src/intro_probs/toh.rs"
 
 [[bin]]
 name = "creating_strs"
-path = "src/creating_strs.rs"
+path = "src/intro_probs/creating_strs.rs"
 
 [[bin]]
 name = "apple_div"
-path = "src/apple_div.rs"
+path = "src/intro_probs/apple_div.rs"
 
 [[bin]]
 name = "chessbrd_qns"
-path = "src/chessbrd_qns.rs"
+path = "src/intro_probs/chessbrd_qns.rs"
 
 [[bin]]
 name = "digit_qrys"
-path = "src/digit_qrys.rs"
+path = "src/intro_probs/digit_qrys.rs"
+
+[[bin]]
+name = "distinct_nums"
+path = "src/sorting_and_searching/distinct_nums.rs"
