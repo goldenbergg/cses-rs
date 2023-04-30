@@ -86,3 +86,7 @@ path = "src/sorting_and_searching/distinct_nums.rs"
 [[bin]]
 name = "apts"
 path = "src/sorting_and_searching/apts.rs"
+
+[[bin]]
+name = "ferris_wheel"
+path = "src/sorting_and_searching/ferris_wheel.rs"
