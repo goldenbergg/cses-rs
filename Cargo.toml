@@ -90,3 +90,7 @@ path = "src/sorting_and_searching/apts.rs"
 [[bin]]
 name = "ferris_wheel"
 path = "src/sorting_and_searching/ferris_wheel.rs"
+
+[[bin]]
+name = "concert_tickets"
+path = "src/sorting_and_searching/concert_tickets.rs"
