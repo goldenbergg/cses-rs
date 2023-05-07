@@ -28,3 +28,5 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Ferris Wheel](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/ferris_wheel.rs)
 - [ ] [Concert Tickets](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/concert_tickets.rs)
 - [x] [Restaurant Customers](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/rest_custs.rs)
+- [x] [Movie Festival](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/movie_fest.rs)
+

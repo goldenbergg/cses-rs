@@ -98,3 +98,7 @@ path = "src/sorting_and_searching/concert_tickets.rs"
 [[bin]]
 name = "rest_custs"
 path = "src/sorting_and_searching/rest_custs.rs"
+
+[[bin]]
+name = "movie_fest"
+path = "src/sorting_and_searching/movie_fest.rs"
