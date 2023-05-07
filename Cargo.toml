@@ -94,3 +94,7 @@ path = "src/sorting_and_searching/ferris_wheel.rs"
 [[bin]]
 name = "concert_tickets"
 path = "src/sorting_and_searching/concert_tickets.rs"
+
+[[bin]]
+name = "rest_custs"
+path = "src/sorting_and_searching/rest_custs.rs"
