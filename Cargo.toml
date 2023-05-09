@@ -110,3 +110,7 @@ path = "src/sorting_and_searching/sum_of_two_vals.rs"
 [[bin]]
 name = "max_subarr_sum"
 path = "src/sorting_and_searching/max_subarr_sum.rs"
+
+[[bin]]
+name = "stick_lens"
+path = "src/sorting_and_searching/stick_lens.rs"
