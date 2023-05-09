@@ -30,3 +30,4 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Restaurant Customers](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/rest_custs.rs)
 - [x] [Movie Festival](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/movie_fest.rs)
 - [x] [Sum of Two Values](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/sum_of_two_vals.rs)
+- [x] [Maximum Subarray Sum](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/max_subarr_sum.rs)
