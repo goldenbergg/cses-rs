@@ -32,3 +32,4 @@ CSES Problem Set in the Rust Programming Language
 - [x] [Sum of Two Values](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/sum_of_two_vals.rs)
 - [x] [Maximum Subarray Sum](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/max_subarr_sum.rs)
 - [x] [Stick Lengths](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/stick_lens.rs)
+- [x] [Missing Coin Sum](https://github.com/goldenbergg/cses-rs/blob/master/src/sorting_and_searching/missing_coin_sum.rs)

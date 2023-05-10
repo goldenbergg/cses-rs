@@ -114,3 +114,7 @@ path = "src/sorting_and_searching/max_subarr_sum.rs"
 [[bin]]
 name = "stick_lens"
 path = "src/sorting_and_searching/stick_lens.rs"
+
+[[bin]]
+name = "missing_coin_sum"
+path = "src/sorting_and_searching/missing_coin_sum.rs"
